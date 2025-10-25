@@ -2,7 +2,18 @@ package com.binary;
 
 // https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 
-public class q5SmallestLetter {
+/*
+
+In ceiling problem we were returning closest greater number if we don't have a match and
+if it's out of array scope we were returning -1
+
+Here weather we don't need exact match we always need closest greater number, and target is greater than
+last element we just need to return starting value that's it.
+
+ */
+
+
+public class q5SmallestLetterGreaterThnTarget {
 
     public static void main(String[] args) {
         int[] letters = {'c','f','j'};
