@@ -1,5 +1,5 @@
 package com.linear;
-
+// https://leetcode.com/problems/richest-customer-wealth/description/
 public class MaxWealth {
     public static void main(String[] args) {
 
