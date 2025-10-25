@@ -13,7 +13,7 @@ Time complexity will be logn x logn = 2logn => O(logn) same as regular binary se
 
  */
 
-public class InfiniteArray {
+public class Q7InfiniteArray {
     public static void main(String[] args) {
         int[] arr = {3, 5, 7, 9, 10, 90,
                 100, 130, 140, 160, 170};
@@ -39,8 +39,6 @@ public class InfiniteArray {
     }
     static int binarySearch(int[] arr, int target, int start, int end) {
         while(start <= end) {
-            // find the middle element
-//            int mid = (start + end) / 2; // might be possible that (start + end) exceeds the range of int in java
             int mid = start + (end - start) / 2;
 
             if (target < arr[mid]) {

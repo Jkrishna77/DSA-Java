@@ -8,7 +8,7 @@ Finding max element in mountain array.
 Mountain array is which has ascending elements and followed by descending elements.
 Like [1,2,3,4,5,4,3,2,1], [4,6,9,10,7,3,1]
  */
-public class MountainArray {
+public class Q8MountainArray {
     public static void main(String[] args) {
 
         int[]  arr = {0,10,5,2};

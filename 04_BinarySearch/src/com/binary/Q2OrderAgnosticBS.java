@@ -6,7 +6,7 @@ Not always given number is in ascending order, that's where we perform order agn
 
  */
 
-public class q2OrderAgnosticBS {
+public class Q2OrderAgnosticBS {
     public static void main(String[] args) {
 //        int[] arr = {-18, -12, -4, 0, 2, 3, 4, 15, 16, 18, 22, 45, 89};
         int[] arr = {99, 80, 75, 22, 11, 10, 5, 2, -3};

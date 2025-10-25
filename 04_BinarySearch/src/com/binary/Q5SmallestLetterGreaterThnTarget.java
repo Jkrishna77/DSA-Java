@@ -13,7 +13,7 @@ last element we just need to return starting value that's it.
  */
 
 
-public class q5SmallestLetterGreaterThnTarget {
+public class Q5SmallestLetterGreaterThnTarget {
 
     public static void main(String[] args) {
         int[] letters = {'c','f','j'};

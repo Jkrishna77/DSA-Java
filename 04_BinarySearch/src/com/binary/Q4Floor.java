@@ -9,10 +9,10 @@ package com.binary;
  But that loop breaks when lower pointer crosses higher pointer, then it becomes : end ans start
  so clearly end will have closest small number to the answer and start will be holding closest greater number
 
- Edge Case: what if target value is greater than last element in array return -1
+ Edge Case: what if target value is smaller than first element in array return -1
 */
 
-public class q3Ceiling {
+public class Q4Floor {
     public static void main(String[] args) {
         int[] arr = {-18, -12, -4, 0, 2, 3, 4, 15, 16, 18, 22, 45, 89};
         int target = 23;
@@ -21,12 +21,12 @@ public class q3Ceiling {
     }
 
     // return the index
-    // if not found return start which will hold nearest greater number
+    // if not found return end which will hold nearest lesser number
     static int binarySearchCeiling(int[] arr, int target) {
         int start = 0;
         int end = arr.length-1;
 
-        if (target > arr[end]){
+        if (target < arr[start]){
             return -1;
         }
 
@@ -45,7 +45,9 @@ public class q3Ceiling {
                 return mid;
             }
         }
-        // not found return ceiling number
-        return start;
+        // not found return floor number
+        return end;
     }
+
+
 }
