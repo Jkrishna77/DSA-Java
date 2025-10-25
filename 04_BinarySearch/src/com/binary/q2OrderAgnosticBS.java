@@ -1,5 +1,11 @@
 package com.binary;
 
+/*
+
+Not always given number is in ascending order, that's where we perform order agnostics binary search
+
+ */
+
 public class q2OrderAgnosticBS {
     public static void main(String[] args) {
 //        int[] arr = {-18, -12, -4, 0, 2, 3, 4, 15, 16, 18, 22, 45, 89};
