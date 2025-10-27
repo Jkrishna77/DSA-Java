@@ -15,6 +15,8 @@ public class Q3_InsertionSort {
             for(int j=i+1;j>0;j--){
                 if(arr[j]<arr[j-1]){
                     swap(arr,j-1,j);
+                }else{
+                    break;
                 }
             }
         }
