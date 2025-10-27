@@ -25,7 +25,7 @@ public class Q6_MissingNumbers {
         ArrayList<Integer> result = new ArrayList<>();
         for(int j =0; j<arr.length; j++){
             if(arr[j] != j+1){
-                result.add(j+1);
+                result.add(arr[j]);
             }
         }
         return result;
